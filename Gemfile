@@ -22,13 +22,17 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
 gem 'rails-i18n'
+gem 'base64'
+gem 'bigdecimal'
+gem 'mutex_m'
+gem 'csv'
+gem 'hirb', group: :development
 
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
-  gem 'pry-rails'
+  # gem 'pry-rails'
   gem 'faker'
   gem 'rspec-rails'
   gem 'database_cleaner'
